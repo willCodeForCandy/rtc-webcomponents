@@ -1,0 +1,26 @@
+:root {
+  --color-primary: rgba(255, 255, 255, 0.87);
+  --color-secondary: #242424;
+  --header-height: 50px;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: var(--color-primary);
+  background-color: var(--color-secondary);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+* {
+  box-sizing: border-box;
+  /* outline: 2px solid pink; */
+}
+
+body {
+  margin: 0;
+}
